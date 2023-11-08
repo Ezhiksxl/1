@@ -1,5 +1,5 @@
 #1
-class Shape:
+class figure:
     def __init__(self, color):
         self.color = color
         self.area = 0
@@ -7,7 +7,7 @@ class Shape:
     def calculate_area(self):
         pass
 
-class Circle(Shape):
+class Carcle(Shape):
     def __init__(self, color, radius):
         super().__init__(color)
         self.radius = radius
