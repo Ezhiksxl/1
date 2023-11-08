@@ -7,7 +7,7 @@ class figure:
     def calculate_area(self):
         pass
 
-class Carcle(Shape):
+class Circle(Shape):
     def __init__(self, color, radius):
         super().__init__(color)
         self.radius = radius
@@ -15,7 +15,7 @@ class Carcle(Shape):
     def calculate_area(self):
         self.area = 3.14 * (self.radius ** 2)
 
-circle1 = Circle("красный", 5)
+circle1 = Circle("желтый", 5)
 circle2 = Circle("синий", 7)
 
 circle1.calculate_area()
